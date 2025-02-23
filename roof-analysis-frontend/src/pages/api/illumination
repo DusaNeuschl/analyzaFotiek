@@ -1,0 +1,36 @@
+import os
+import json
+from pathlib import Path
+import traceback
+from flask import Flask, request, jsonify
+# Ďalšie importy (napr. numpy, atď.) ak sú potrebné
+
+app = Flask(__name__)
+
+@app.route("/api/illumination", methods=["GET"])
+def api_illumination():
+    # Použite raw string, aby ste predišli problémom so spätnými lomítkami
+    analyses_dir = Path(r"D:\napady\analýza strechy\analyses")
+    
+    if not analyses_dir.exists():
+        error_msg = f"Adresář s analýzami '{analyses_dir}' sa nenašiel"
+        app.logger.error(error_msg)
+        return jsonify({"error": error_msg}), 404
+
+    report = {}
+    try:
+        for json_file in analyses_dir.glob("*_analysis.json"):
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+                section_name = data.get("name", json_file.stem)
+                report[section_name] = data
+        if not report:
+            return jsonify({"error": "Nenašli sa žiadne analýzy"}), 404
+        return jsonify(report)
+    except Exception as e:
+        app.logger.error(str(e))
+        app.logger.debug(traceback.format_exc())
+        return jsonify({"error": str(e)}), 500
+
+if __name__ == "__main__":
+    app.run(debug=True, host="0.0.0.0", port=5000)
