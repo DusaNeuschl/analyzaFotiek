@@ -1,0 +1,201 @@
+{
+  "name": "Západo-severozápadná strana (291°)",
+  "dates": {
+    "2025-02-05": [
+      {
+        "datetime": "2025-02-05T09:41:00",
+        "image_name": "2025-02-05-09-41.jpg",
+        "average_brightness": 110.96831761253884,
+        "brightness_variation": 49.08974951947078,
+        "shadow_percentage": 33.894288811203495,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-09-41_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T10:49:00",
+        "image_name": "2025-02-05-10-49.jpg",
+        "average_brightness": 108.58576507092198,
+        "brightness_variation": 54.09389857760524,
+        "shadow_percentage": 34.04260859929078,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-10-49_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T11:25:00",
+        "image_name": "2025-02-05-11-25.jpg",
+        "average_brightness": 111.57254210992907,
+        "brightness_variation": 50.892763418826995,
+        "shadow_percentage": 35.72610815602837,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-11-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T11:48:00",
+        "image_name": "2025-02-05-11-48.jpg",
+        "average_brightness": 104.421116910461,
+        "brightness_variation": 53.658865672171466,
+        "shadow_percentage": 32.12292774822695,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-11-48_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T12:27:00",
+        "image_name": "2025-02-05-12-27.jpg",
+        "average_brightness": 104.75145733599291,
+        "brightness_variation": 53.45910218390543,
+        "shadow_percentage": 33.93448581560284,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-12-27_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T12:55:00",
+        "image_name": "2025-02-05-12-55.jpg",
+        "average_brightness": 114.18502637411348,
+        "brightness_variation": 60.37425272426931,
+        "shadow_percentage": 35.5368905141844,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-12-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T13:25:00",
+        "image_name": "2025-02-05-13-25.jpg",
+        "average_brightness": 117.1019181072695,
+        "brightness_variation": 61.65166215052057,
+        "shadow_percentage": 34.836436170212764,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-13-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T13:56:00",
+        "image_name": "2025-02-05-13-56.jpg",
+        "average_brightness": 118.47085715868795,
+        "brightness_variation": 61.141679942066204,
+        "shadow_percentage": 33.81907136524823,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-13-56_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T14:25:00",
+        "image_name": "2025-02-05-14-25.jpg",
+        "average_brightness": 115.02965558510638,
+        "brightness_variation": 61.91297480158807,
+        "shadow_percentage": 33.76218971631206,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-14-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T14:56:00",
+        "image_name": "2025-02-05-14-56.jpg",
+        "average_brightness": 116.9515622783688,
+        "brightness_variation": 62.97758321117485,
+        "shadow_percentage": 30.67197473404255,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-05-14-56_heat_map.npy"
+      }
+    ],
+    "2025-02-16": [
+      {
+        "datetime": "2025-02-16T07:52:00",
+        "image_name": "2025-02-16-07-52.jpg",
+        "average_brightness": 129.10792686170214,
+        "brightness_variation": 56.922641778164966,
+        "shadow_percentage": 34.1470079787234,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-07-52_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T08:25:00",
+        "image_name": "2025-02-16-08-25.jpg",
+        "average_brightness": 131.98395966312057,
+        "brightness_variation": 55.72230517996629,
+        "shadow_percentage": 33.54889184397163,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-08-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T08:56:00",
+        "image_name": "2025-02-16-08-56.jpg",
+        "average_brightness": 141.04286380762412,
+        "brightness_variation": 58.52229289649648,
+        "shadow_percentage": 35.12423537234042,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-08-56_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T09:25:00",
+        "image_name": "2025-02-16-09-25.jpg",
+        "average_brightness": 133.20756848404255,
+        "brightness_variation": 63.48107287056389,
+        "shadow_percentage": 34.923758865248224,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-09-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T09:55:00",
+        "image_name": "2025-02-16-09-55.jpg",
+        "average_brightness": 121.48408521719858,
+        "brightness_variation": 63.15738154988234,
+        "shadow_percentage": 35.445489804964545,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-09-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T10:26:00",
+        "image_name": "2025-02-16-10-26.jpg",
+        "average_brightness": 138.10467242907802,
+        "brightness_variation": 63.2913662159138,
+        "shadow_percentage": 35.6417109929078,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-10-26_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T10:55:00",
+        "image_name": "2025-02-16-10-55.jpg",
+        "average_brightness": 140.8484061391844,
+        "brightness_variation": 58.339028737770654,
+        "shadow_percentage": 34.93459663120567,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-10-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T11:23:00",
+        "image_name": "2025-02-16-11-23.jpg",
+        "average_brightness": 138.89870999556737,
+        "brightness_variation": 61.219311866158954,
+        "shadow_percentage": 36.08722296099291,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-11-23_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T11:55:00",
+        "image_name": "2025-02-16-11-55.jpg",
+        "average_brightness": 128.39237732712766,
+        "brightness_variation": 65.2551458565198,
+        "shadow_percentage": 33.37066710992907,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-11-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T12:26:00",
+        "image_name": "2025-02-16-12-26.jpg",
+        "average_brightness": 131.8976010638298,
+        "brightness_variation": 64.41701317233479,
+        "shadow_percentage": 33.5552969858156,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-12-26_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T12:58:00",
+        "image_name": "2025-02-16-12-58.jpg",
+        "average_brightness": 121.21793827570922,
+        "brightness_variation": 62.4751640026568,
+        "shadow_percentage": 35.018705673758866,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-12-58_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T13:25:00",
+        "image_name": "2025-02-16-13-25.jpg",
+        "average_brightness": 123.31997085549645,
+        "brightness_variation": 56.727527236586816,
+        "shadow_percentage": 33.08645833333333,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-13-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T13:55:00",
+        "image_name": "2025-02-16-13-55.jpg",
+        "average_brightness": 123.00610217198582,
+        "brightness_variation": 59.07003513791362,
+        "shadow_percentage": 33.50487588652482,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-13-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T14:27:00",
+        "image_name": "2025-02-16-14-27.jpg",
+        "average_brightness": 112.06639583333333,
+        "brightness_variation": 55.42349870220175,
+        "shadow_percentage": 35.027171985815606,
+        "heat_map_file": "Západo-severozápadná strana (291°)_2025-02-16-14-27_heat_map.npy"
+      }
+    ]
+  }
+}

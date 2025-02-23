@@ -1,0 +1,241 @@
+{
+  "name": "Východo-juhovýchodná strana (109°)",
+  "dates": {
+    "2025-02-05": [
+      {
+        "datetime": "2025-02-05T09:00:00",
+        "image_name": "2025-02-05-09-00.jpg",
+        "average_brightness": 120.81539228723405,
+        "brightness_variation": 56.51657015734893,
+        "shadow_percentage": 34.11950354609929,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-09-00_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T09:40:00",
+        "image_name": "2025-02-05-09-40.jpg",
+        "average_brightness": 123.59760261524822,
+        "brightness_variation": 48.395948763385384,
+        "shadow_percentage": 33.84591090425532,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-09-40_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T10:49:00",
+        "image_name": "2025-02-05-10-49.jpg",
+        "average_brightness": 125.82268661347517,
+        "brightness_variation": 49.045020300756455,
+        "shadow_percentage": 35.15185062056737,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-10-49_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T11:25:00",
+        "image_name": "2025-02-05-11-25.jpg",
+        "average_brightness": 126.15216832890071,
+        "brightness_variation": 51.076426077064994,
+        "shadow_percentage": 34.645999556737586,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-11-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T11:48:00",
+        "image_name": "2025-02-05-11-48.jpg",
+        "average_brightness": 129.45141899379433,
+        "brightness_variation": 53.311540094217825,
+        "shadow_percentage": 36.12505540780142,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-11-48_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T12:27:00",
+        "image_name": "2025-02-05-12-27.jpg",
+        "average_brightness": 127.60294270833333,
+        "brightness_variation": 54.99252914570624,
+        "shadow_percentage": 36.32306072695036,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-12-27_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T12:30:00",
+        "image_name": "2025-02-05-12-30.jpg",
+        "average_brightness": 120.69972384751773,
+        "brightness_variation": 55.370222281715435,
+        "shadow_percentage": 38.02109929078014,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-12-30_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T12:55:00",
+        "image_name": "2025-02-05-12-55.jpg",
+        "average_brightness": 125.65550808953901,
+        "brightness_variation": 56.030958655660946,
+        "shadow_percentage": 37.447030141843975,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-12-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T13:25:00",
+        "image_name": "2025-02-05-13-25.jpg",
+        "average_brightness": 119.95868971631205,
+        "brightness_variation": 54.40621051392281,
+        "shadow_percentage": 38.819935726950355,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-13-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T13:55:00",
+        "image_name": "2025-02-05-13-55.jpg",
+        "average_brightness": 116.89314960106383,
+        "brightness_variation": 50.844927152307484,
+        "shadow_percentage": 36.5396719858156,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-13-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T14:25:00",
+        "image_name": "2025-02-05-14-25.jpg",
+        "average_brightness": 104.54825864361702,
+        "brightness_variation": 50.93464814933175,
+        "shadow_percentage": 32.66988031914894,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-14-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T14:30:00",
+        "image_name": "2025-02-05-14-30.jpg",
+        "average_brightness": 112.34348182624113,
+        "brightness_variation": 53.245582936414436,
+        "shadow_percentage": 36.49024822695036,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-14-30_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T14:55:00",
+        "image_name": "2025-02-05-14-55.jpg",
+        "average_brightness": 106.89935848847517,
+        "brightness_variation": 51.3329641852498,
+        "shadow_percentage": 27.679643173758866,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-14-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T15:30:00",
+        "image_name": "2025-02-05-15-30.jpg",
+        "average_brightness": 109.72737544326242,
+        "brightness_variation": 52.38210517201243,
+        "shadow_percentage": 35.15992907801419,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-15-30_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-05T16:30:00",
+        "image_name": "2025-02-05-16-30.jpg",
+        "average_brightness": 107.8999375,
+        "brightness_variation": 57.053511605517464,
+        "shadow_percentage": 33.146631205673756,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-05-16-30_heat_map.npy"
+      }
+    ],
+    "2025-02-16": [
+      {
+        "datetime": "2025-02-16T07:52:00",
+        "image_name": "2025-02-16-07-52.jpg",
+        "average_brightness": 122.35307867907801,
+        "brightness_variation": 54.957522619291375,
+        "shadow_percentage": 28.518639184397166,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-07-52_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T08:25:00",
+        "image_name": "2025-02-16-08-25.jpg",
+        "average_brightness": 122.41864882535461,
+        "brightness_variation": 52.900441499925996,
+        "shadow_percentage": 30.26694370567376,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-08-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T08:55:00",
+        "image_name": "2025-02-16-08-55.jpg",
+        "average_brightness": 126.40482291666666,
+        "brightness_variation": 54.5998110027459,
+        "shadow_percentage": 31.418827570921987,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-08-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T09:25:00",
+        "image_name": "2025-02-16-09-25.jpg",
+        "average_brightness": 134.44581693262413,
+        "brightness_variation": 55.19724427570073,
+        "shadow_percentage": 32.05610593971631,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-09-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T09:55:00",
+        "image_name": "2025-02-16-09-55.jpg",
+        "average_brightness": 134.42606515957448,
+        "brightness_variation": 56.88336188585589,
+        "shadow_percentage": 31.819148936170212,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-09-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T10:25:00",
+        "image_name": "2025-02-16-10-25.jpg",
+        "average_brightness": 144.8695043218085,
+        "brightness_variation": 55.3658061286569,
+        "shadow_percentage": 35.243916223404256,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-10-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T10:55:00",
+        "image_name": "2025-02-16-10-55.jpg",
+        "average_brightness": 137.60310394503546,
+        "brightness_variation": 57.27461801435251,
+        "shadow_percentage": 32.952870124113474,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-10-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T11:23:00",
+        "image_name": "2025-02-16-11-23.jpg",
+        "average_brightness": 150.08151296542553,
+        "brightness_variation": 59.05536245688405,
+        "shadow_percentage": 35.66970301418439,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-11-23_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T11:55:00",
+        "image_name": "2025-02-16-11-55.jpg",
+        "average_brightness": 142.6557453457447,
+        "brightness_variation": 64.67610848435326,
+        "shadow_percentage": 33.09097960992908,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-11-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T12:25:00",
+        "image_name": "2025-02-16-12-25.jpg",
+        "average_brightness": 138.98360106382978,
+        "brightness_variation": 65.60278527856413,
+        "shadow_percentage": 35.64051418439716,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-12-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T12:58:00",
+        "image_name": "2025-02-16-12-58.jpg",
+        "average_brightness": 133.87359253102838,
+        "brightness_variation": 54.46349473796998,
+        "shadow_percentage": 31.898116134751774,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-12-58_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T13:25:00",
+        "image_name": "2025-02-16-13-25.jpg",
+        "average_brightness": 127.36580108599291,
+        "brightness_variation": 60.44076655642343,
+        "shadow_percentage": 37.27481161347518,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-13-25_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T13:55:00",
+        "image_name": "2025-02-16-13-55.jpg",
+        "average_brightness": 116.77591300975178,
+        "brightness_variation": 53.46097760671148,
+        "shadow_percentage": 37.51913785460993,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-13-55_heat_map.npy"
+      },
+      {
+        "datetime": "2025-02-16T14:26:00",
+        "image_name": "2025-02-16-14-26.jpg",
+        "average_brightness": 110.63704476950355,
+        "brightness_variation": 52.74397918841839,
+        "shadow_percentage": 31.830241578014185,
+        "heat_map_file": "Východo-juhovýchodná strana (109°)_2025-02-16-14-26_heat_map.npy"
+      }
+    ]
+  }
+}

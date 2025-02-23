@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+  <meta charset="UTF-8">
+  <title>Analýza strechy - Frontend</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2em;
+    }
+    form {
+      margin-bottom: 1em;
+    }
+    label {
+      display: inline-block;
+      width: 200px;
+      margin-bottom: 0.5em;
+    }
+    input[type="text"] {
+      width: 300px;
+    }
+    pre {
+      background: #f4f4f4;
+      padding: 1em;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+    }
+  </style>
+</head>
+<body>
+  <h1>Analýza strechy - Frontend</h1>
+
+  <!-- Sekcia pre premenovanie fotografií -->
+  <section>
+    <h2>Přejmenování fotografií</h2>
+    <!-- Odstránili sme action, aby formulár neodosielal GET -->
+    <form id="renameForm" action="">
+      <label for="renamePhotosDir">Adresář s fotkami:</label>
+      <input type="text" id="renamePhotosDir" name="photos_dir" placeholder="Zadejte cestu">
+      <button type="submit">Přejmenovat</button>
+    </form>
+    <div id="renameResult">
+      <!-- Výsledok požiadavky sa zobrazí sem -->
+    </div>
+  </section>
+
+  <hr>
+
+  <!-- Sekcia pre analýzu fotografií -->
+  <section>
+    <h2>Analýza fotografií</h2>
+    <!-- Aj tu odstráňte action atribút -->
+    <form id="analyzeForm" action="">
+      <label for="analyzePhotosDir">Adresář s fotkami:</label>
+      <input type="text" id="analyzePhotosDir" name="photos_dir" placeholder="Zadejte cestu" value="D:/napady/fotky/Photos">
+      <br>
+      <label for="dataDir">Adresář pro uložení analýz:</label>
+      <input type="text" id="dataDir" name="data_dir" placeholder="Zadejte cestu" value="D:/napady/analýza strechy">
+      <br>
+      <label for="force">Force reanalysis:</label>
+      <input type="checkbox" id="force" name="force">
+      <br>
+      <button type="submit">Analyzovat</button>
+    </form>
+    <div id="analyzeResult">
+      <!-- Výsledok požiadavky sa zobrazí sem -->
+    </div>
+  </section>
+
+  <!-- Script umiestnite pred uzatváracím tagom </body> -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Event listener pre formulár na premenovanie fotografií
+      document.getElementById("renameForm").addEventListener("submit", function(e) {
+        e.preventDefault(); // Zabraňuje odoslaniu formulára ako GET
+        const photosDir = document.getElementById("renamePhotosDir").value;
+        fetch("http://localhost:5000/api/rename", {  // Absolútna URL na BE server
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({ photos_dir: photosDir })
+        })
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById("renameResult").innerHTML = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+        })
+        .catch(error => {
+          document.getElementById("renameResult").innerHTML = "<pre>Chyba: " + error + "</pre>";
+        });
+      });
+
+      // Event listener pre formulár na analýzu fotografií
+      document.getElementById("analyzeForm").addEventListener("submit", function(e) {
+        e.preventDefault(); // Zabraňuje odoslaniu formulára ako GET
+        const photosDir = document.getElementById("analyzePhotosDir").value;
+        const dataDir = document.getElementById("dataDir").value;
+        const force = document.getElementById("force").checked;
+        fetch("http://localhost:5000/api/analyze", {  // Absolútna URL na BE server
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify({
+            photos_dir: photosDir,
+            data_dir: dataDir,
+            force: force
+          })
+        })
+        .then(response => response.json())
+        .then(data => {
+          document.getElementById("analyzeResult").innerHTML = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+        })
+        .catch(error => {
+          document.getElementById("analyzeResult").innerHTML = "<pre>Chyba: " + error + "</pre>";
+        });
+      });
+    });
+  </script>
+</body>
+</html>
